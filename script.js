@@ -12,3 +12,15 @@ document.getElementById("popup-overlay").onclick = () => {
     document.getElementById("popup").classList.remove("active");
     document.getElementById("popup-overlay").classList.remove("active");
 };
+
+
+
+
+
+document.getElementById("openMenu").onclick = () => {
+    document.getElementById("menuModal").style.display = "flex";
+};
+
+document.getElementById("closeMenu").onclick = () => {
+    document.getElementById("menuModal").style.display = "none";
+};
